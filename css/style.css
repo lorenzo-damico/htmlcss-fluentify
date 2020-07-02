@@ -138,3 +138,48 @@ header {
   color: grey;
 }
 /* /Section intro */
+
+/* Sezione centrale */
+.central-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.central-list {
+  list-style: none;
+}
+.central-list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.central-list li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.central-list li img {
+  width: 180px;
+  height: 200px;
+}
+
+.central-list li p:first-of-type {
+  color: #7CBB03;
+  font-size: 22px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.line {
+  width: 15%;
+  border: 1px solid lightgrey;
+  margin: 10px auto;
+}
+
+.central-list li p:nth-child(4) {
+  color: grey;
+  font-size: 16px;
+  width: 80%;
+  margin: 20px auto;
+}
