@@ -184,3 +184,119 @@ header {
   margin: 20px auto;
 }
 /* /sezione centrale */
+
+/* Sezione finale */
+.final-section {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.final-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.final-section > div {
+  float: left;
+  width: 47%;
+}
+
+.final-section h3 {
+  font-size: 30px;
+}
+
+.final-section p {
+  color: grey;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.col-dx div {
+  margin-top: 20px;
+}
+.col-dx {
+  margin-left: 6%;
+}
+/* /Sezione finale */
+
+/* Footer */
+footer {
+  background-color: #D3D3D3;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper .foot-sx {
+  float: left;
+  width: 50%;
+}
+
+.foot-sx {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wrapper .foot-dx {
+  float:right;
+  width: 50%;
+}
+.selezione {
+  float:left;
+  width: 50%;
+  text-align: right;
+}
+
+.foot-buttons {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.foot-dx::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foot-buttons button {
+  color: #fff;
+  border: none;
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #7CBB02;
+  cursor: pointer;
+}
+
+.foot-buttons div {
+  margin-left: 10px;
+}
+
+.foot-buttons div:nth-child(2) {
+  margin-top: 20px;
+}
+
+#selezione {
+  width: 150px;
+  background-color: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  color: grey;
+}
+
+.selezione label {
+  margin-right: 20px;
+  color: grey;
+  font-size: 20px;
+}
